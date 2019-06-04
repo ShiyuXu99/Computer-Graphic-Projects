@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="600px" width="600px">
+    <rect x="0" y="0" height="600" width="600" fill="#DDD" />
+    <rect x="50" y="50" height="500" width="500" fill="lightblue" stroke-width="0" />
+     <rect x="100" y="100" height="400" width="400" fill="black" stroke-width="0" /> 
+
+    <g id="hat"> 
+         <circle cx="300" cy="340" r="60" fill="cornsilk" />
+         <polygon points="240,300 360,300 300,200" style="fill:red; stroke:none;" />
+         <circle cx="300" cy="200" r="15" fill="white" />
+         <circle cx="275" cy="330" r="9" fill="black" />
+         <circle cx="325" cy="330" r="9" fill="black" />
+         <circle cx="277" cy="332" r="2" fill="white" />
+         <circle cx="327" cy="332" r="2" fill="white" />
+         <rect x="200" y="420" width="200" height="100" rx="20" ry="20" style="fill:red;stroke:none;" />
+         
+    </g>
+     <use transform="translate(70,-10) rotate(45)" xlink:href="#hat" />
+     <use transform="translate(50,420) rotate(-45)" xlink:href="#hat" />
+</svg>
+
