@@ -111,7 +111,7 @@ function draw(canvas, param) {
  */
 let oldOnLoad = window.onload;
 window.onload = function () {
-    let theCanvas = /** @type {HTMLCanvasElement} */ (document.getElementById("canvas"));
+    let theCanvas = /** @type {HTMLCanvasElement} */ (document.getElementById("train"));
     let theContext = theCanvas.getContext("2d");
     // we need the slider for the draw function, but we need the draw function
     // to create the slider - so create a variable and we'll change it later
@@ -149,6 +149,4 @@ window.onload = function () {
     draggablePoints(theCanvas, thePoints,
         wrapDraw,
         10, setNumPoints);
-
-
 };
