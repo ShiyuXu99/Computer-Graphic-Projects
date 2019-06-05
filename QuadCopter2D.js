@@ -1,6 +1,6 @@
 
 window.onload = function () {
-    let canvas = /** @type {HTMLCanvasElement} */ (document.getElementById("2DQuadcopter"));
+    let canvas = document.getElementById("2DQuadcopter");
     let context = canvas.getContext("2d");
 
     function drawQuad(angle){
